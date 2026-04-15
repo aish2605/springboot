@@ -11,7 +11,7 @@ import com.api.repo.MessageRepo;
 import com.api.Service.SecretMessage;
 
 @RestController
-@CrossOrigin(origins="https://lock-talk.netlify.app")	
+@CrossOrigin(origins="http://localhost:5173")	
 public class MessageController {
 	
 	@Autowired
